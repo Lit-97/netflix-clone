@@ -95,7 +95,7 @@ lib/
 
 ## 👤 Author
 
-**Litney Pollard-Hinton**  
+**Lit PH**  
 - Portfolio: https://lit-97.github.io/portfolio/  
 - GitHub: https://github.com/Lit-97  
 
