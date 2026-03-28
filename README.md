@@ -1,60 +1,52 @@
-# Netflix Clone — Next.js 14 + Redux + SASS
+# 🎬 Netflix Clone
 
-A faithful CRA → Next.js conversion of the Lit-97 Netflix Clone, using the **App Router**, **Redux Thunk**, **Swiper**, **Bootstrap 5**, and the original **SASS** styles completely unchanged.
+A modern, responsive Netflix-inspired web application built using Next.js, TypeScript, and the TMDB API. This project replicates key features of a streaming platform, including browsing movies and TV shows, viewing detailed information, and user authentication.
 
----
+## 🚀 Live Demo
+https://lit97-netflix-clone.vercel.app
 
-## Setup
+<img width="1916" height="1032" alt="image" src="https://github.com/user-attachments/assets/22b03963-ae62-4d38-839c-064e981c05df" />
 
-### 1. Install dependencies
-```bash
-npm install
-```
-
-### 2. Add your TMDB API key
-```bash
-cp .env.local.example .env.local
-```
-Edit `.env.local`:
-```
-NEXT_PUBLIC_TMDB_API_KEY=your_key_here
-```
-Get a free key at https://www.themoviedb.org/settings/api
-
-### 3. Run locally
-```bash
-npm run dev
-```
-Open http://localhost:3000
 
 ---
 
-## Deploy to Vercel
-1. Push to GitHub
-2. Import repo at https://vercel.com/new
-3. Add environment variable: `NEXT_PUBLIC_TMDB_API_KEY`
-4. Deploy
+## ✨ Features
+
+- Browse Movies & TV Shows (Trending, Top Rated, Now Playing)
+- Detailed Movie & Series Pages
+- Search functionality for movies, TV shows, and people
+- Watch trailer functionality
+- GitHub Authentication (NextAuth)
+- Responsive UI (mobile + desktop)
+- Dynamic routing with Next.js App Router
+- Real-time data from TMDB API
 
 ---
 
-## Routes
+## 🛠 Tech Stack
 
-| Path | Page |
-|------|------|
-| `/` | Home — hero slider + trending + popular + now playing + top rated |
-| `/movies` | Popular movies |
-| `/movies/now_playing` | Now playing movies |
-| `/movies/top_rated` | Top rated movies |
-| `/movies/upcoming` | Upcoming movies |
-| `/series` | Popular series |
-| `/series/airing_today` | Airing today |
-| `/series/top_rated` | Top rated series |
-| `/series/on_tv` | On TV |
-| `/movie/[id]` | Movie detail page |
-| `/serie/[id]` | Series detail page |
-| `/serie/[id]/season/[number]` | Season detail + episodes |
-| `/people` | Popular people |
-| `/person/[id]` | Person detail |
-| `/search` | Search (multi: movies, TV, people) |
-| `/watch/movie/[id]` | Watch movie (embedded player) |
-| `/watch/serie/[id]/season/[s]/episode/[ep]` | Watch episode |
+**Frontend**
+- Next.js (App Router)
+- React
+- TypeScript
+- SASS / CSS
+
+**Backend / Auth**
+- NextAuth.js (GitHub OAuth)
+
+**API**
+- TMDB (The Movie Database)
+
+**Deployment**
+- Vercel
+
+---
+
+## 🔐 Authentication
+
+User authentication is handled using **NextAuth.js** with GitHub OAuth.  
+Users can securely log in and log out of the application.
+
+---
+
+## 📁 Project Structure
