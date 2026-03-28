@@ -50,3 +50,57 @@ Users can securely log in and log out of the application.
 ---
 
 ## 📁 Project Structure
+
+src/
+app/
+(main)/
+movies/
+series/
+search/
+people/
+components/
+styles/
+lib/
+
+---
+
+## ⚡ Key Highlights
+
+- Built using modern Next.js (App Router)
+- Optimized performance with server and client components
+- Clean, reusable component architecture
+- API-driven UI with dynamic data rendering
+- Production deployment on Vercel
+
+---
+
+## 🧠 What I Learned
+
+- Working with external APIs (TMDB)
+- Implementing authentication with NextAuth
+- Managing routing and layouts in Next.js App Router
+- Debugging production build and deployment issues
+- Handling environment variables securely in Vercel
+
+---
+
+## 📌 Future Improvements
+
+- Add user watchlist functionality
+- Persist user data (database integration)
+- Improve recommendation system
+- Add ratings/reviews system
+
+---
+
+## 👤 Author
+
+**Litney Pollard-Hinton**  
+- Portfolio: https://lit-97.github.io/portfolio/  
+- GitHub: https://github.com/Lit-97  
+
+---
+
+## 📄 License
+
+This project is for educational and portfolio purposes.
