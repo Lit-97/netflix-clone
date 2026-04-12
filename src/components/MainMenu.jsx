@@ -41,7 +41,7 @@ export default function MainMenu() {
   </li>
 
   <li>
-  <a href="https://lit-97.github.io/portfolio/" target="_blank" rel="noreferrer">
+  <a href="https://litney-portfolio.vercel.app/" target="_blank" rel="noreferrer">
     <img src="/images/portfolio.png" alt="portfolio-jc-icon" className="social-icon-img" />
   </a>
 </li>
