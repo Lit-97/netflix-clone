@@ -1,6 +1,6 @@
 # 🎬 Netflix Clone
 
-A modern, responsive Netflix-inspired web application built using Next.js, TypeScript, and the TMDB API. This project replicates key features of a streaming platform, including browsing movies and TV shows, viewing detailed information, and user authentication.
+A modern, responsive Netflix-inspired web application built using Next.js, JavaScript, and the TMDB API. This project replicates key features of a streaming platform, including browsing movies and TV shows, viewing detailed information, and user authentication.
 
 ## 🚀 Live Demo
 https://lit97-netflix-clone.vercel.app
@@ -28,7 +28,7 @@ https://lit97-netflix-clone.vercel.app
 **Frontend**
 - Next.js (App Router)
 - React
-- TypeScript
+- JavaScript
 - SASS / CSS
 
 **Backend / Auth**
